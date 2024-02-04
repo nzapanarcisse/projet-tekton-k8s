@@ -1,5 +1,5 @@
 # tekton-example
-This repo is use in [eazytraining's kubernetes course](https://eazytraining.fr/cours/kubernetes-les-bases-pour-devops) to demonstrate how to use [tekton](https://github.com/tektoncd/pipeline) to create kubernetes pipeline.
+This repo is use to demonstrate how to use [tekton](https://github.com/tektoncd/pipeline) to create kubernetes pipeline.
 This code is based on the great [tekton tutorial](https://github.com/tektoncd/pipeline/blob/master/docs/tutorial.md). So you can read it also for some usefull information.
 Here we will only give you the command you need to run to setup a pipeline example.
 ## Install tekton
@@ -11,9 +11,9 @@ Here we will only give you the command you need to run to setup a pipeline examp
 
     kubectl create secret docker-registry regcred \
                     --docker-server="https://index.docker.io/v1/" \
-                    --docker-username=dirane \
+                    --docker-username=narcisse \
                     --docker-password="mypassword" \
-                    --docker-email=diranetafen@yahoo.com
+                    --docker-email=nzapanarcisse@gmail.com
     
 ### Create service account that will used to pass secret to tekton
 
